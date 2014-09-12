@@ -1,4 +1,6 @@
 # DalekJs TestSuite Wrapper #
+
+
 ## For what is this good ? ##
 
 Quote from: http://dalekjs.com/
@@ -161,6 +163,10 @@ You cann call **dalek dalekTestSuite.js** with the following parameters:
 * **--suiteToRun / -s**: Which suite is supposed to be executed default is: ./suite.json
 * **--testToRun / -t **: Which test to run if not set all are executed
 * **--baseUrl / -o**: Which base url to start with, overrids the configured one in the suite
+
+## Versions: ##
+
+Currently alpha :)
 
 
 ## TODOs ##
