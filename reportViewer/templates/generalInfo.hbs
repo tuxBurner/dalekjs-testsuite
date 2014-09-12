@@ -1,0 +1,10 @@
+<div class="panel panel-default">
+  <div class="panel-heading">Overview</div>
+  <div class="panel-body">
+    Tests completed in
+    {{# if result.elapsedTime.hours}} {{result.elapsedTime.hours}} hrs {{/if}}
+    {{# if result.elapsedTime.minutes}} {{result.elapsedTime.minutes}} min {{/if}}
+    {{roundNumber result.elapsedTime.seconds}} sec.<br>
+    <span class="passed">{{result.assertionsPassed}}</span> assertions of <span class="total">{{result.assertions}}</span> passed, <span class="failed">{{result.assertionsFailed}}</span> failed.
+  </div>
+</div>

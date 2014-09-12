@@ -1,0 +1,24 @@
+{
+  "name": "testSuiteReport",
+  "version": "0.0.1",
+  "description": "Creates a report for a testuite as HTML",
+  "homepage": "http://dalekjs.com",
+  "main": "index.js",
+  "directories": {
+    "lib": "."
+  },
+  "dependencies": {
+    "handlebars": "~2.0.0-alpha.2",
+    "stdio": "0.1.6",
+    "fs-extra": "*" 
+  },
+  "keywords": [
+    "dalekjsTestSuite"
+  ],
+  "author": {
+    "name": "Sebastian Hardt"
+  },
+  "engine": {
+    "node": ">=0.8"
+  }
+}

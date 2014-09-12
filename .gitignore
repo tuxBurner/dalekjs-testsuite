@@ -1,0 +1,8 @@
+.idea
+node_modules
+report
+screens
+atlassian-ide-plugin.xml
+dalekTestSuite.iml
+reportViewer/node_modules
+reportViewer/report

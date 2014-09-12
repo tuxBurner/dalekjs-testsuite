@@ -1,0 +1,24 @@
+{
+  "enterSearchTerm" : {
+      "dalek" : {
+          "term" : "dalek"
+      },
+      "dalekJs" : {
+          "term" : "dalek js"
+      }
+  },
+  "click" : {
+      "nextResPage" : {
+          "selector" : "#pnnext"
+      },
+      "prevResPage" : {
+          "selector" : "#pnprev"
+      },
+      "searchBtn" : {
+          "selector" : "#gbqfb"
+      }
+  },
+    "chains" : {
+      "searchForDalek" : ["enterSearchTerm.dalekJs","click.searchBtn"]
+    }
+}

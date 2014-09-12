@@ -1,0 +1,48 @@
+{
+    "name": "Google Tests",
+    "testFile": "./tests.json",
+    "functionFile": "./functions.js",
+    "testStepWaitTime": 50,
+    "baseUrl": "http://google.com/",
+    "tearUps": ["makeSureItsGoogle"],
+    "tearDowns": ["makeSureItsGoogle"],
+    "tests": {
+        "Google for something": [
+            {
+                "name": "enterSearchTerm",
+                "params": {
+                    "term": "something"
+                }
+            }
+        ],
+        "Google override dalek": [
+            {
+                "name": "enterSearchTerm.dalek",
+                "params": {
+                    "term": "override"
+                }
+            }
+        ],
+        "Google for dalek": ["enterSearchTerm.dalek"],
+        "Google for dalekjs": ["enterSearchTerm.dalekJs"],
+        "Google for dalekjs and navigate": ["enterSearchTerm.dalekJs", "click.searchBtn", "click.nextResPage", "click.nextResPage", "click.prevResPage"],
+        "Google via chain and click next 4 times": ["execute_searchForDalek", {
+            "name": "click.nextResPage",
+            "repeat": 4
+        }],
+        "Google via chain 4 times": [
+            {
+                "name": "execute_searchForDalek",
+                "repeat": 4
+            }
+        ],
+        "Call a function from the function.js": [
+            {
+                "name": "testOwnFunctions",
+                "params": {
+                    "message": "Welcomt to darlek"
+                }
+            }
+        ]
+    }
+}

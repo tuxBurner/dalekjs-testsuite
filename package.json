@@ -1,0 +1,15 @@
+{
+  "name": "DalekJS-Hackathon",
+  "description": "Hacking around with DalekJS",
+  "version": "0.0.0",
+  "devDependencies": {
+    "dalek-browser-chrome": "http://github.com/dalekjs/dalek-browser-chrome/tarball/master",
+    "dalek-browser-firefox": "http://github.com/dalekjs/dalek-browser-firefox/tarball/master",
+    "dalek-reporter-html": "http://github.com/dalekjs/dalek-reporter-html/tarball/master",
+    "dalekjs": "http://github.com/tuxBurner/dalek/tarball/master",
+    "dalek-reporter-json": "http://github.com/tuxBurner/dalek-reporter-json/tarball/master",
+    "extend": "1.3.0",
+    "stdio": "0.1.6",
+    "cli-color": "0.3.2"
+  }
+}
