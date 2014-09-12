@@ -198,7 +198,7 @@ var executeTestsChain = function (testChain, dalekTestJs, screenshot) {
             loadTestFileAndExecute(testToLoad, dalekTestJs);
             if (screenshot == true) {
                 dalekTestJs.wait(testSuites.testStepWaitTime);
-                dalekTestJs.screenshot('./screens/:browser/' + dalekTestJs.name + '/' + chainIdx + '_' + testName + '_end.png')
+                dalekTestJs.screenshot(baseFolder+'screens/:browser/' + dalekTestJs.name + '/' + chainIdx + '_' + testName + '_end.png')
             }
         }
 

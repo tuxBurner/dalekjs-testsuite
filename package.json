@@ -10,6 +10,7 @@
     "dalek-reporter-json": "http://github.com/tuxBurner/dalek-reporter-json/tarball/master",
     "extend": "1.3.0",
     "stdio": "0.1.6",
-    "cli-color": "0.3.2"
+    "cli-color": "0.3.2",
+    "resemble" :  "1.0.3"
   }
 }

@@ -2,6 +2,7 @@
     "name": "Google Tests",
     "testFile": "./tests.json",
     "functionFile": "./functions.js",
+    "checkScreensFolder" : "./checkScreens",
     "testStepWaitTime": 50,
     "baseUrl": "http://google.com/",
     "tearUps": ["makeSureItsGoogle"],
