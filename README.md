@@ -1,7 +1,7 @@
 # DalekJS TestSuite Wrapper #
 
 
-## What is is good for? ##
+## What is it good for? ##
 
 Quote from: http://dalekjs.com/
 > Automated cross browser testing with Javascript!
